@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Secular+One&display=swap'); 
+   .hero-main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 90vh;
+    margin-top:3em;
+}
+.heading-section{
+    display: flex;
+    justify-content: center   ;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    background-color: rgb(194, 189, 189);
+}
+.name{
+font-size: 60px;
+font-weight: bold;
+margin-left: -1em;
+margin-bottom: -0.9em;
+margin-top:-50px;
+font-family: 'Secular One', sans-serif;
+}
+.about{
+    margin-left: -4em;
+    font-weight: 600;
+    font-family: 'Hahmlet', serif;
+color: rgb(95, 94, 94);
+text-decoration: underline;
+    
+}
