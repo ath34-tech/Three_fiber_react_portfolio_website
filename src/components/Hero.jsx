@@ -25,7 +25,10 @@ export default function Hero(){
            <h4 className="about">
                A programmer/Writer/Student/Learner
            </h4> 
-
+           <div className="buttonWrap">
+            <button><i class="fab fa-github"></i>VISIT MY GITHUB</button>
+            <button>VISIT MY INSTAGRAM</button>
+            </div>
            </div>
         
            <Canvas>

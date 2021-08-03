@@ -12,14 +12,14 @@
     flex-direction: column;
 }
 body{
-    background-color: rgb(194, 189, 189);
+    background-color: white;
 }
 .name{
-font-size: 60px;
+font-size: 3rem;
 font-weight: bold;
 margin-left: -1em;
 margin-bottom: -0.9em;
-margin-top:-50px;
+margin-top:-2em;
 font-family: 'Secular One', sans-serif;
 }
 .about{
@@ -29,4 +29,26 @@ font-family: 'Secular One', sans-serif;
 color: rgb(95, 94, 94);
 text-decoration: underline;
     
+}
+
+button{
+    margin:1em;
+    padding: 1em;
+    border-radius: 1em;
+    border:0.5px solid gray;
+    font-family: 'Ubuntu';
+    font-weight: 600;
+    background-color: white;
+    transition: 1s;
+}
+button:nth-child(2){
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+.buttonWrap{
+    margin-left:-5em;
 }
