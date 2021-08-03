@@ -6,6 +6,9 @@ import Tourus from './components/tourus3d';
 
 export default function App(){
 
+
+
+  
 return (
 <>
 <Canvas style={{position:'fixed'}}>
