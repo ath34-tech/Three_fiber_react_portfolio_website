@@ -15,7 +15,7 @@ body{
     background-color: white;
 }
 .name{
-font-size: 3rem;
+font-size: 3em;
 font-weight: bold;
 margin-left: -1em;
 margin-bottom: -0.9em;
@@ -51,4 +51,37 @@ button:hover{
 }
 .buttonWrap{
     margin-left:-5em;
+}
+
+.cursor{
+    font-size: 3rem;
+}
+@media (max-width:700px) {
+    .hero-main{
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        margin-top: 5rem;
+    }
+  .cursor{
+      font-size: 2rem;
+      z-index: -3;
+  }
+    .box-object{
+        z-index: -1;
+    }
+    .name{
+        font-size: 1.5rem;
+        margin-left: 0.25em;
+        margin-bottom: -4em;
+    }
+    .about{
+        font-size: 0.75rem;
+        margin-left: 0.25em;
+        margin-top: -1em;
+    }
+    .buttonWrap{
+        margin-left: 2px;
+    }
+ .hero-main{
+     opacity: 1;
+ }
 }

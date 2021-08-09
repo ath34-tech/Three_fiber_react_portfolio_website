@@ -5,7 +5,7 @@ import {Canvas} from "@react-three/fiber"
 export default function Hero(){
     return(
     
-        <div class="hero-main" >
+        <div class="hero-main" id="hero">
             
            <div className="heading-section">
            <div className="intro">
@@ -15,7 +15,7 @@ export default function Hero(){
         typingDelay={1000}
         eraseDelay={1000}
         eraseSpeed={100}
-        cursorRenderer={cursor => <h1 style={{fontSize:"50px"}}>{cursor}</h1>}
+        cursorRenderer={cursor => <h1 className="cursor">{cursor}</h1>}
         displayTextRenderer={(text, i) => {
           return (<p className="name">{text}</p>)}}        
       />
@@ -31,7 +31,7 @@ export default function Hero(){
             </div>
            </div>
         
-           <Canvas>
+           <Canvas className="box-object">
             
                <Box/>
                </Canvas>
