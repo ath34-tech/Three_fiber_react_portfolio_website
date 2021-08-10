@@ -33,7 +33,7 @@ body{
   }
   ul li a{
     margin-left:2em;
-    height: 100px;
+    height: auto;
     align-items: center;
     text-align: center  ;
     vertical-align: center;
@@ -44,6 +44,9 @@ text-decoration: none;
 color: black;
   }
 
+li a:hover{
+  background-color: brown;
+}
 @media (max-width:700px) {
   .navbar h1{
     display: flex;

@@ -15,6 +15,7 @@ return (
   <Tourus colors={"white"}/>
 
 </Canvas>
+
 <div style={{position:"fixed ",width:"100%"}}>
   <Navbar/>
   <Hero/>

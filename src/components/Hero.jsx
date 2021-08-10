@@ -32,8 +32,8 @@ export default function Hero(){
            </div>
         
            <Canvas className="box-object">
-            
                <Box/>
+               
                </Canvas>
 
         </div>
